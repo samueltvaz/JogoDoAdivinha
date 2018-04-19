@@ -1,0 +1,58 @@
+body {
+	background-color: Gold;
+}
+
+h1 {
+	color: Sienna;
+}
+
+p {
+	font-size: 18px;
+}
+
+#informacoes {
+	background-color: Cyan;
+}
+
+#entradaDados {
+	background-color: DarkCyan;
+} 
+
+#instrucoes {
+	background-color: DeepSkyBlue;
+}
+
+#tentativas {
+	color: red;
+	font-size: 20px;
+}
+
+#areaDica {
+	color: orange;
+	font-size: 24px;
+}
+
+.alinhar {
+	display: inline-block;
+}
+
+.botao {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #4CAF50;
+  box-shadow: 0 9px #999;
+}
+
+.botao:hover {
+	background-color: #3e8e41
+}
+
+.botao:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #555;
+  transform: translateY(4px);
+}

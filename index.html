@@ -1,0 +1,63 @@
+<!DOCtype html>
+<html>
+
+    <head>
+        <title>Jogo do adivinha</title>
+        <script src="codigo.js"></script>
+        <link href="estilo.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+	
+        <center>
+		
+            <form name="jogoAdivinha">
+			
+			<h1>O Jogo do Adivinha</h1>
+			
+				<div id="informacoes">
+					<br>
+					<h2>Área de mensagens:</h2>
+					<p id="areaMensagens"></p>
+					<p class="alinhar">Tentativas:</p>
+					<p class="alinhar" id="tentativas"></p>
+					<p id="areaDica"><p>
+				</div>
+				
+				<div id="entradaDados">
+					<br>
+					<h2>Escreve o teu palpite!</h3>
+					<input type="txt" name="input" size="15" placeholder="Escreve um número" autofocus>
+					<input type="button" value="Verificar" onClick="verificarValores()">
+					<br>
+					<br>
+					<input class="botao" type="button" value="1" onClick="adicionar(1)">
+					<input class="botao" type="button" value="2" onClick="adicionar(2)">
+					<input class="botao" type="button" value="3" onClick="adicionar(3)">
+					<br>
+					<input class="botao" type="button" value="4" onClick="adicionar(4)">
+					<input class="botao" type="button" value="5" onClick="adicionar(5)">
+					<input class="botao" type="button" value="6" onClick="adicionar(6)">
+					<br>
+					<input class="botao" type="button" value="7" onClick="adicionar(7)">
+					<input class="botao" type="button" value="8" onClick="adicionar(8)">
+					<input class="botao" type="button" value="9" onClick="adicionar(9)">
+					<br>
+					<input class="botao" type="button" value="0" onClick="adicionar(0)">
+					<br>
+					<br>
+				</div>
+            </form>
+			<div id="instrucoes">
+				<h2>Instruções:</h3>
+				<p>1. Clica nos botões com os números ou escreve diretamente</p>
+				<p>2. Clica em Verificar</p>
+				<p>3. Repete os passos até acertares no número</p>
+				<br>
+			</div>
+        </center>
+		
+		<script>Init()</script>
+		
+    </body>
+</html>
